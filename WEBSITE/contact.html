@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="contact2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>SARAS LEGAL</title>
+</head>
+<body>
+  <!-- --------- home bg--------- -->
+
+<nav class="nav-box">
+  <div class="logo">
+    <img src="images/LOGO FINAL SL.png">
+    <h1>SARAS LEGAL</h1>
+  </div>
+    <!-- ----menu items--- -->
+     <ul class="sidebar">
+      <li onclick="hideSidebar()">
+      <a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+      <a href="index.html"><li>Home</li></a>
+      <a href="about.html"><li>About Us</li></a>
+      <a href="service.html"><li>Services</li></a>
+      <a href="contact.html"><li>Contact Us</li></a>
+     </ul>
+  <div class="menu-bar">
+    <ul>
+      <li onclick="showSidebar()"><i class="fa-solid fa-bars"></i></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ----contact form ------- -->
+ <div class="contact-cont">
+    <section class="contact-section">
+        <h1 class="contact-title"> Contact Us</h1>
+        <div class="contact-info">
+            <div class="contact-items">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="contact-items">
+                <i class="fa-solid fa-phone-volume"></i>
+                <p>+91-XXX-XXX-XXXX</p>
+            </div>
+            <div class="contact-items">
+                <i class="fa-solid fa-envelope"></i>
+                <p>XXXXXXX@XXXX.com</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="enquiry-section">
+                        <div class="enquiry-form">
+                            <h2>For Enquiry</h2>
+                            <label for="name">Name*</label>
+                            <input type="text"  name="name" required>
+                            <label for="name">Phone number*</label>
+                            <input type="text"  name="mobile" required>
+                            <label for="name">Email*</label>
+                            <input type="email" name="email" required>
+                            <label for="name">Message*</label>
+                            <textarea id="message" name="message" rows="10" required></textarea>
+
+                            <a href="#contactus">CONTACT US</a>
+                        </div>
+                        <div class="enquiry-image">
+                            <img src="images/about bg.jpg" alt="lawyer writing with gavel and scale">
+                        </div>
+            </div>
+        </div>
+
+    </section>
+ </div>
+
+
+
+
+
+
+        <!-- footer -->
+      <div class="footer-content">
+      <footer class="footer-section">
+        <div class="footer-copyleft">
+            <img src="images/LOGO FINAL SL.png" alt="">
+            <h2>SARAS LEGAL</h2>
+        </div>
+        <div class="footer-copyright">
+            © 2025 - Present Saras Legal. All rights reserved.
+        </div>
+      </footer>
+      </div>
+
+<!-- --javascript----- -->
+<script src="slide.js"></script>
+
+</body>
+</html>
